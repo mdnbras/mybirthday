@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'aos/dist/aos.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'DreamAvenue';
+    src: url('../public/fonts/Dream-Avenue.ttf');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
