@@ -1,0 +1,60 @@
+.fundo {
+  background-image: url('../../../public/fundo.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  margin: 0 50%;
+  inset: 0;
+  transform: translateX(-50%);
+}
+
+.content {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.title-header {
+  font-family: 'PlaywriteDKLoopet';
+  font-size: 12pt;
+  color: #8e7841;
+}
+
+.title-name {
+  font-family: 'Lobster';
+  font-size: 56pt;
+  color: #c38f99;
+  padding-bottom: 60px;
+}
+
+.descricao {
+  width: 100%;
+  font-family: 'PlaywriteDKLoopet', serif;
+  text-align: start;
+  //padding: 0 64px;
+  color: #494948;
+  font-size: 15pt;
+}
+
+
+.linha {
+  width: 140px;
+  margin: 10px 0;
+}
+
+.footer-info {
+  font-family: 'PlaywriteDKLoopet';
+  font-size: 12pt;
+  text-align: center;
+  padding-top: 30px;
+  color: #dfac8b;
+  width: 240px;
+}

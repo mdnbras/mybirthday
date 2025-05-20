@@ -1,0 +1,88 @@
+.fundo {
+  background-image: url('../../../public/fundo.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  margin: 0 50%;
+  inset: 0;
+  transform: translateX(-50%);
+}
+
+.content {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.title-name {
+  font-family: 'DreamAvenue';
+  font-size: 64pt;
+  color: #8e7841;
+}
+
+.descricao {
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 0 64px;
+  color: #6a4d25;
+  font-size: 14pt;
+}
+
+
+.linha {
+  width: 140px;
+  margin: 10px 0;
+}
+
+.data-evento {
+  font-family: 'DreamAvenue';
+  border: 1px solid #c8a97c;
+  border-radius: 32px;
+  padding: 4px 52px;
+  margin-top: 36px;
+  font-size: 18pt;
+}
+
+.options {
+  padding: 16px 102px;
+
+  .content-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px;
+
+    .circle-info {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-image: url('../../../public/base.png');
+      background-repeat: no-repeat;
+      //border: 1px solid;
+
+      &.c1 {
+        background-position: -102px -447px;
+        background-size: 382px;
+      }
+
+      &.c2 {
+        background-position: -199px -448px;
+        background-size: 383px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer-info {
+  font-family: 'Montserrat';
+  font-size: 12pt;
+  text-align: center;
+}
